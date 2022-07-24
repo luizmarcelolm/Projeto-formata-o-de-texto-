@@ -1,15 +1,26 @@
 <!DOCTYPE html>
+
 <html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script type="text/javascript" src="javascript.js"></script>
     <title>Formatador de texto</title>
+
 </head>
 
 <body>
-    <h1>Digite seu texto aqui</h1>
+    <h1>FORMATADOR DE TEXTO</h1>
+    <input type="button" onclick="texto_maiuscula()" value="Maiúscula">
+    <input type="button" onclick="texto_minuscula()" value="Minúscula"><br><br>
+    <textarea id="texto" placeholder="Digite ou cole seu texto."></textarea><br>
+
+
+    <textarea id="resultado" placeholder="Texto formatado."></textarea><br>
+    <script src="javascript.js"></script>
 
 </body>
 
