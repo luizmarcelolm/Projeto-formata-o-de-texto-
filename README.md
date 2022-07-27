@@ -6,4 +6,5 @@ Nessa aplicação você poderá formatar textos grandes de maneira rápida e fá
 - [x] Criação de botão para deixar texto em letra minúscua.
 - [x] Melhorar CSS. 
 - [x] incluir botão de limpar caixa.
-- [] incluir botão deixar primira letra da palavra em maiúscula.
+- [x] incluir botão deixar primeira letra da palavra em maiúscula.
+- [x] incluir botão copiar texto.
