@@ -13,22 +13,26 @@
 </head>
 
 <body>
+
     <div class="conteudo">
         <h1>FORMATADOR DE TEXTO</h1>
 
-
-        <input class="botoes" type="button" onclick="pm()" value="Primeira letra Maiúscula">
+        <!--Criação de botões de funcões-->
+        <input class="botoes" type="button" onclick="pm()" value="Primeira letra maiúscula"><br><br>
         <input class="botoes" type="button" onclick="texto_maiuscula()" value="Maiúscula">
-        <input class="botoes" type="button" onclick="texto_minuscula()" value="Minúscula">
-        <input class="botoes" type="button" onclick="limpa()" value="Limpar"><br><br>
+        <input class="botoes" type="button" onclick="texto_minuscula()" value="Minúscula"><br><br>
+        <input class="botoes" type="button" onclick="copiar()" value="Copiar">
+        <input class="botoes" type="button" onclick="limpar()" value="Limpar"><br><br>
+        <a href="mailto:">Enviar por email</a><br><br>
 
+        <!--Criação de caixa para digitar o texto-->
         <textarea id="texto" placeholder="Digite ou cole seu texto."></textarea><br>
 
-
-        <textarea id="resultado" placeholder="Texto formatado."></textarea><br>
-        <input class="botoes" type="button" onclick="copiar()" value="Copiar">
+        <!--Criação de caixa para receber texto formatado-->
+        <textarea id="resultado" placeholder="Texto formatado."></textarea><br><br>
 
         <script src="javascript.js"></script>
+
 
     </div>
 
