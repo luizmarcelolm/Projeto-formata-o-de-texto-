@@ -9,3 +9,4 @@ Nessa aplicação você poderá formatar textos grandes de maneira rápida e fá
 - [x] incluir botão deixar primeira letra da palavra em maiúscula.
 - [x] incluir botão copiar texto.
 - [x] incluir botão enviar por email.
+- [x] responsividade

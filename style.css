@@ -1,69 +1,88 @@
-   /*zerando margem e aplicando fundo*/
-   
-   body {
-       margin: 0;
-       padding: 0;
-       background-image: url("fundo.jpg");
-       background-repeat: no-repeat;
-       background-size: cover;
-   }
-   /*tamanho e cor caixa detexto*/
-   
-   textarea {
-       resize: none;
-       width: 400px;
-       height: 200px;
-       color: black;
-   }
-   /*título*/
-   
-   h1 {
-       color: white;
-       font-family: Arial, Helvetica, sans-serif;
-   }
-   /*centraliza conteúdo*/
-   
-   .conteudo {
-       text-align: center;
-   }
-   /*formata botoes*/
-   
-   .botoes {
-       width: 200px;
-       padding: 3px;
-       border-radius: 7px;
-       background-color: #2E8B57;
-       color: white;
-       border: 2px solid white;
-   }
-   /*formata botoes com cursor em cima*/
-   
-   .botoes:hover {
-       background-color: white;
-       color: #2E8B57;
-       border: 2px solid #2E8B57;
-   }
-   /*formata botao enviar por email*/
-   
-   a {
-       width: 170px;
-       padding: 2px;
-       text-decoration: none;
-       border-radius: 7px;
-       background-color: #2E8B57;
-       color: white;
-       border: 2px solid white;
-   }
-   /*formata botao enviar por email com cursor em cima*/
-   
-   a:hover {
-       background-color: white;
-       color: #2E8B57;
-       border: 2px solid #2E8B57;
-   }
-   /*brdas arredondadas caoxa de texto*/
-   
-   #texto,
-   #resultado {
-       border-radius: 8px;
-   }
+               /*zerando margem e aplicando fundo*/
+               
+               body {
+                   margin: 0;
+                   padding: 0;
+                   background-image: url("fundo.jpg");
+                   background-repeat: no-repeat;
+                   background-size: cover;
+               }
+               /*tamanho e cor caixa detexto*/
+               
+               textarea {
+                   resize: none;
+                   width: 400px;
+                   height: 200px;
+                   color: black;
+               }
+               /*título*/
+               
+               h1 {
+                   color: white;
+                   font-family: Arial, Helvetica, sans-serif;
+               }
+               /*centraliza conteúdo*/
+               
+               .conteudo {
+                   text-align: center;
+               }
+               /*formata botoes*/
+               
+               .botoes {
+                   width: 200px;
+                   padding: 3px;
+                   border-radius: 7px;
+                   background-color: #2E8B57;
+                   color: white;
+                   border: 2px solid white;
+               }
+               /*formata botoes com cursor em cima*/
+               
+               .botoes:hover {
+                   background-color: white;
+                   color: #2E8B57;
+                   border: 2px solid #2E8B57;
+               }
+               /*formata botao enviar por email*/
+               
+               a {
+                   width: 170px;
+                   padding: 2px;
+                   text-decoration: none;
+                   border-radius: 7px;
+                   background-color: #2E8B57;
+                   color: white;
+                   border: 2px solid white;
+               }
+               /*formata botao enviar por email com cursor em cima*/
+               
+               a:hover {
+                   background-color: white;
+                   color: #2E8B57;
+                   border: 2px solid #2E8B57;
+               }
+               /*brdas arredondadas caoxa de texto*/
+               
+               #texto,
+               #resultado {
+                   border-radius: 8px;
+               }
+               
+               @media screen and (max-width:450px) {
+                   /*formata botoes*/
+                   .botoes {
+                       width: 160px;
+                       padding: 3px;
+                       border-radius: 7px;
+                       background-color: #2E8B57;
+                       color: white;
+                       border: 2px solid white;
+                   }
+                   /*tamanho e cor caixa detexto*/
+                   textarea {
+                       resize: none;
+                       width: 300px;
+                       height: 150px;
+                       color: black;
+                   }
+               }
