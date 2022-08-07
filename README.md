@@ -10,3 +10,4 @@ Nessa aplicação você poderá formatar textos grandes de maneira rápida e fá
 - [x] incluir botão copiar texto.
 - [x] incluir botão enviar por email.
 - [x] responsividade
+- [x] melhora na organização do projeto

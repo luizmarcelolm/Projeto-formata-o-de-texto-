@@ -3,7 +3,7 @@
                body {
                    margin: 0;
                    padding: 0;
-                   background-image: url("fundo.jpg");
+                   background-image: url("./assets/fundo.jpg");
                    background-repeat: no-repeat;
                    background-size: cover;
                }
