@@ -1,4 +1,4 @@
-#FORMATADOR DE TEXTO
+# FORMATADOR DE TEXTO
 
 Nessa aplicação foi utilizado javascript para criação da interação com o que está sendo digitado, você poderá formatar textos grandes de maneira rápida e fácil de acordo com a sua necessidade.
 
